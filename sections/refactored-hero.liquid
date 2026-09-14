@@ -1,0 +1,15 @@
+{{ 'refactored-hero.css' | asset_url | stylesheet_tag }}
+<div class="hero">
+    {% render 'refactored-hero-bg' %}
+</div>
+{% schema %}
+{
+    "name": "Hero section",
+    "settings": [],
+    "presets": [
+        {
+            "name": "Hero section"
+        }
+    ]
+}
+{% endschema %}

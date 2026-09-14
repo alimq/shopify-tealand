@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+  {{ content_for_header }}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+  body {
+    margin: 0;
+  }
+  @media (max-width: 161px) or (min-width: 4097px) {
+    .alt-page {
+      display: inline !important;
+    }
+    body {
+      padding: clamp(10px,2vw,200px);
+      font-size: clamp(16px,5vw,200px);
+    }
+    .wrapper {
+      display: none;
+    }
+  }
+  </style>
+  </head>
+  <body>
+    <p class="alt-page" style="display: none;">
+      Device width must be at least 161px and at most 4096px to view the site.
+    </p>
+    <div class="wrapper">
+      {% section 'refactored-hero' %}
+      {{content_for_layout}}
+    </div>
+  </body>
+</html>

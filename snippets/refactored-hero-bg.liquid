@@ -1,0 +1,6 @@
+{{ 'refactored-hero-bg.css' | asset_url | stylesheet_tag }}
+<picture class="hero-bg">
+    <source media="(max-width: 419px)" srcset="{{ 'hero.svg' | asset_url }}">
+    <source media="(min-width: 420px)" srcset="{{ 'hero.png' | asset_url }}">
+    <img class="hero-bg" src="{{ 'hero.png' | asset_url }}">
+</picture>

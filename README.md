@@ -1,0 +1,1 @@
+A responsive site built on Shopify's engine

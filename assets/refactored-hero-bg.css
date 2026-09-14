@@ -1,0 +1,43 @@
+.hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    pointer-events: none; 
+}
+@media (max-width:161px) {
+    .hero-bg {
+
+    }
+}
+@media (min-width:162px) and (max-width:419px) {
+    .hero-bg {
+        
+    }
+}
+@media (min-width:420px) and (max-width:699px) {
+    .hero-bg {
+        
+    }
+}
+@media (min-width:700px) and (max-width:1279px) {
+    .hero-bg {
+        
+    }
+}
+@media (min-width:1280px) and (max-width:1919px) {
+    .hero-bg {
+        
+    }
+}
+@media (min-width:1920px) and (max-width:4096px) {
+    .hero-bg {
+        
+    }
+}
+@media (min-width:4097px) {
+    .hero-bg {
+        
+    }
+}
