@@ -1,6 +1,9 @@
 {{ 'refactored-hero.css' | asset_url | stylesheet_tag }}
 <div class="hero">
     {% render 'refactored-hero-bg' %}
+    <div class="content">
+        {% render 'refactored-hero-title' %}
+    </div>
 </div>
 {% schema %}
 {
