@@ -6,11 +6,6 @@
     z-index: 1;
     pointer-events: none; 
 }
-@media (max-width:161px) {
-    .hero .hero-bg {
-
-    }
-}
 @media (min-width:162px) and (max-width:419px) {
     .hero .hero-bg {
         
@@ -32,11 +27,6 @@
     }
 }
 @media (min-width:1920px) and (max-width:4096px) {
-    .hero .hero-bg {
-        
-    }
-}
-@media (min-width:4097px) {
     .hero .hero-bg {
         
     }
