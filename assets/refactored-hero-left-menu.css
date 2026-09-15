@@ -29,8 +29,15 @@
     }
 }
 @media (min-width:1920px) and (max-width:4095px) {
-    
+    .hero .hero-left-menu {
+        padding-left: 40px;
+        padding-top: 40px;
+    }
 }
 @media (min-width:4096px) {
-    
+    .hero .hero-left-menu {
+        font-size: 80px;
+        padding-left: 40px;
+        padding-top: 40px;
+    }
 }

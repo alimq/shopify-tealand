@@ -1,7 +1,7 @@
 .hero .hero-logo {
     position: absolute;
     z-index: 2;
-    top: 0;
+    top: 20px;
     left: 50%;
     transform: translateX(-50%);
     aspect-ratio: 117/85;

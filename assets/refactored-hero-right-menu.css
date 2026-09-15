@@ -1,7 +1,7 @@
 .hero .hero-right-menu {
     position: absolute;
     z-index: 2;
-    right: 80px;
+    right: 0px;
 }
 .hero .hero-right-menu ul {
     display: flex;
@@ -37,8 +37,29 @@
     }
 }
 @media (min-width:1920px) and (max-width:4095px) {
-    
+    .hero .hero-right-menu {
+        padding-right: 40px;
+        padding-top: 20px;
+    }
+    .hero .hero-right-menu ul li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 }
 @media (min-width:4096px) {
-    
+    .hero .hero-right-menu {
+        font-size: 80px;
+        padding-right: 40px;
+        padding-top: 20px;
+    }
+    .hero .hero-right-menu ul li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .hero .hero-right-menu .add-to-cart {
+        height: 101px;
+        width: 118px;
+    }
 }
