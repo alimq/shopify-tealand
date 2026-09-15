@@ -1,0 +1,9 @@
+{{ 'refactored-advantages-pic.css' | asset_url | stylesheet_tag }}
+<picture class="advantages-pic">
+    <source media="(max-width: 419px)" srcset="
+    {{ 'advantages.svg' | asset_url }}">
+    <source media="(min-width: 420px)" srcset="
+    {{ 'advantages.png' | asset_url }}">
+    <img class="advantages-pic" src="
+    {{ 'advantages.png' | asset_url }}">
+</picture>

@@ -12,9 +12,10 @@
 .hero .hero-right-menu .add-to-cart {
     height: 18px;
     width: 21px;
+    margin-right: 25px;
 }
 .hero .hero-right-menu .contact-us {
-    
+    margin-top: 0;
 }
 @media (min-width:162px) and (max-width:419px) {
     .hero .hero-right-menu {
@@ -50,7 +51,7 @@
 @media (min-width:4096px) {
     .hero .hero-right-menu {
         font-size: 80px;
-        padding-right: 40px;
+        padding-right: 100px;
         padding-top: 20px;
     }
     .hero .hero-right-menu ul li {

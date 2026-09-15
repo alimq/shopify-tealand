@@ -1,0 +1,30 @@
+{{ 'refactored-advantages.css' | asset_url | stylesheet_tag }}
+<div class="advantages">
+    <div class="container-1">
+        {% render 'refactored-advantages-title' %}
+        {% render 'refactored-advantages-pic' %}
+        {% render 'refactored-advantages-button' %}
+    </div>
+    <div class="container-2">
+        <div class="left-col">
+            {% render 'refactored-advantages-pic' %}
+        </div>
+        <div class="right-col">
+            {% render 'refactored-advantages-title' %}
+            {% render 'refactored-advantages-second-title' %}
+            {% render 'refactored-advantages-paragraph' %}
+            {% render 'refactored-advantages-button' %}
+        </div>
+    </div>
+</div>
+{% schema %}
+{
+    "name": "Advantages section",
+    "settings": [],
+    "presets": [
+        {
+            "name": "Advantages section"
+        }
+    ]
+}
+{% endschema %}

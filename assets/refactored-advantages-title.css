@@ -1,0 +1,27 @@
+.advantages .advantages-title {
+    
+}
+@media (min-width:162px) and (max-width:419px) {
+    .advantages .advantages-title {
+        margin-bottom: -30px;
+    }
+}
+@media (min-width:420px) and (max-width:699px) {
+    .advantages .advantages-title {
+        margin-bottom: -30px;
+    }
+}
+@media (min-width:700px) and (max-width:1279px) {
+    .advantages .advantages-title {
+        display: inline;
+    }
+}
+@media (min-width:1280px) and (max-width:1919px) {
+    
+}
+@media (min-width:1920px) and (max-width:4095px) {
+    
+}
+@media (min-width:4096px) {
+    
+}
