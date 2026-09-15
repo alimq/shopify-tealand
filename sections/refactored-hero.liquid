@@ -1,9 +1,11 @@
 {{ 'refactored-hero.css' | asset_url | stylesheet_tag }}
 <div class="hero">
     {% render 'refactored-hero-bg' %}
+    {% render 'refactored-hero-logo' %}
     <div class="content">
         {% render 'refactored-hero-title' %}
         {% render 'refactored-hero-second-title' %}
+        {% render 'refactored-hero-paragraph' %}
         {% render 'refactored-hero-button' %}
     </div>
 </div>
