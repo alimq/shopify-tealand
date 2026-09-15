@@ -1,0 +1,43 @@
+.hero .hero-button {
+    font-size: 16px;
+    font-family: 'Roboto';
+    color: #ffffff;
+    background-color: #7d806a;
+    height: 31px;
+    width: 113px;
+    border: none;
+    border-radius: 25px;
+}
+@media (min-width:162px) and (max-width:419px) {
+    
+}
+@media (min-width:420px) and (max-width:699px) {
+    .hero .hero-button {
+        width: 129px;
+    }
+}
+@media (min-width:700px) and (max-width:1279px) {
+    .hero .hero-button {
+        width: 170px;
+        height: 50px;
+    }
+}
+@media (min-width:1280px) and (max-width:1919px) {
+    .hero .hero-button {
+        width: 170px;
+        height: 50px;
+    }
+}
+@media (min-width:1920px) and (max-width:4095px) {
+    .hero .hero-button {
+        width: 170px;
+        height: 50px;
+    }
+}
+@media (min-width:4096px) {
+    .hero .hero-button {
+        width: 468px;
+        height: 169px;
+        font-size: 80px;
+    }
+}

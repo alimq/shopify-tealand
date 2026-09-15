@@ -1,8 +1,10 @@
-.hero .hero-title {
+.hero .hero-title-font {
     font-size: 16px;
     font-family: 'Roboto';
     color: #99775a;
     letter-spacing: 2px;
+}
+.hero .hero-title {
     margin: 0;
 }
 @media (min-width:162px) and (max-width:419px) {
@@ -25,7 +27,12 @@
         display: none;
     }
 }
-@media (min-width:1920px) and (max-width:4096px) {
+@media (min-width:1920px) and (max-width:4095px) {
+    .hero .hero-title {
+        font-size: 20px;
+    }
+}
+@media (min-width:4096px) {
     .hero .hero-title {
         font-size: 100px;
     }

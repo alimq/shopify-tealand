@@ -26,7 +26,12 @@
         
     }
 }
-@media (min-width:1920px) and (max-width:4096px) {
+@media (min-width:1920px) and (max-width:4095px) {
+    .hero .hero-bg {
+        
+    }
+}
+@media (min-width:4096px) {
     .hero .hero-bg {
         
     }
