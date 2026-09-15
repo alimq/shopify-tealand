@@ -1,0 +1,33 @@
+{{ 'refactored-since-2022.css' | asset_url | stylesheet_tag }}
+<div class="since-2022">
+    <div class="container">
+        {% render 'refactored-since-2022-title' %}
+        {% render 'refactored-since-2022-second-title' %}
+        {% render 'refactored-since-2022-paragraph' %}
+        <div class="col-or-row-of-pics">
+            <div class="col-pic-text">
+            {% render 'refactored-since-2022-pic-1' %}
+            {% render 'refactored-since-2022-text-1' %}
+            </div>
+            <div class="col-pic-text">
+            {% render 'refactored-since-2022-pic-2' %}
+            {% render 'refactored-since-2022-text-2' %}
+            </div>
+            <div class="col-pic-text">
+            {% render 'refactored-since-2022-pic-3' %}
+            {% render 'refactored-since-2022-text-3' %}
+            </div>
+        </div>
+    </div>
+</div>
+{% schema %}
+{
+    "name": "Since 2022 section",
+    "settings": [],
+    "presets": [
+        {
+            "name": "Since 2022 section"
+        }
+    ]
+}
+{% endschema %}

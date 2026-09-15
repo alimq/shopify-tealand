@@ -1,0 +1,9 @@
+{{ 'refactored-since-2022-pic.css' | asset_url | stylesheet_tag }}
+<picture class="since-2022-pic">
+    <source srcset="{{ 'why_organic_products.svg' | asset_url }}"
+    media="(max-width: 419px)">
+    <source srcset="{{ 'why_organic_products.png' | asset_url }}"
+    media="(min-width: 420px)">
+    <img class="since-2022-pic" src="
+    {{ 'why_organic_products.png' | asset_url }}">
+</picture>

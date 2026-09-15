@@ -1,0 +1,63 @@
+.since-2022 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.col-or-row-of-pics {
+    display: flex;
+}
+.col-pic-text {
+    display: flex;
+    flex-direction: column;
+}
+.col-pic-text .since-2022-pic {
+    margin: auto;
+}
+.col-pic-text p {
+    margin: auto;
+    text-align: center;
+}
+@media (min-width:162px) and (max-width:419px) {
+    .col-or-row-of-pics {
+        flex-direction: column;
+    }
+    .since-2022 {
+        padding-top: 30px;
+    }
+}
+@media (min-width:420px) and (max-width:699px) {
+    .col-or-row-of-pics {
+        flex-direction: column;
+    }
+}
+@media (min-width:700px) and (max-width:1279px) {
+    .col-or-row-of-pics {
+        flex-direction: row;
+    }
+}
+@media (min-width:1280px) and (max-width:1919px) {
+    .col-or-row-of-pics {
+        flex-direction: row;
+    }
+}
+@media (min-width:1920px) and (max-width:4095px) {
+    .col-or-row-of-pics {
+        flex-direction: row;
+    }
+}
+@media (min-width:4096px) {
+    .col-or-row-of-pics {
+        flex-direction: row;
+    }
+    .since-2022 {
+        padding-top: 200px;
+    }
+    .since-2022 .col-or-row-of-pics {
+        gap: 100px;
+    }
+}
