@@ -1,30 +1,38 @@
-.hero .hero-left-menu {
+.hero .hero-right-menu {
     position: absolute;
     z-index: 2;
+    right: 80px;
 }
-.hero .hero-left-menu ul {
+.hero .hero-right-menu ul {
     display: flex;
     flex-direction: row;
     gap: 40px;
     list-style-type: none;
 }
+.hero .hero-right-menu .add-to-cart {
+    height: 18px;
+    width: 21px;
+}
+.hero .hero-right-menu .contact-us {
+    
+}
 @media (min-width:162px) and (max-width:419px) {
-    .hero .hero-left-menu {
+    .hero .hero-right-menu {
         display: none;
     }
 }
 @media (min-width:420px) and (max-width:699px) {
-    .hero .hero-left-menu {
+    .hero .hero-right-menu {
         display: none;
     }
 }
 @media (min-width:700px) and (max-width:1279px) {
-    .hero .hero-left-menu {
+    .hero .hero-right-menu {
         display: none;
     }
 }
 @media (min-width:1280px) and (max-width:1919px) {
-    .hero .hero-left-menu {
+    .hero .hero-right-menu {
         display: none;
     }
 }

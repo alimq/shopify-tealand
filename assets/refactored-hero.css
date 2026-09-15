@@ -12,6 +12,7 @@
     width: 100%;
     height: 100%;
     justify-content: center;
+    box-sizing: border-box;
 }
 @media (min-width:162px) and (max-width:419px) {
     .content {
