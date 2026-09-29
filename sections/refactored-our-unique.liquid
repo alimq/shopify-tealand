@@ -4,8 +4,19 @@
         <p class="our-unique-title hero-second-title hero-second-title-font">
             Our Unique Tea Blends
         </p>
-        <div class="col-or-row-of-pics">
-            
+        <div class="our-unique-carousel">
+            <div class="c-container">
+                {% for product in collections['Gynostemma'].products %}
+                <div class="c-item">
+                    <picture class="c-item-pic">
+                        <source media="(max-width: 419px)" srcset="{{ product.metafields.custom.svg_icon | image_url: width: 600 }}">
+                        <source media="(min-width: 420px)" srcset="{{ product.featured_image | image_url: width: 600 }}">
+                        <img src="{{ product.featured_image | image_url: width: 600 }}" class="">
+                    </picture>
+                    <p class="c-item-title">{{ product.title }}</p>
+                </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
 </div>

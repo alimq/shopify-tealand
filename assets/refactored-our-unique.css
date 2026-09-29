@@ -3,6 +3,29 @@
         display: inline !important;
     }
     .our-unique {
-        padding-top: 70px;
+        padding-top: 40px;
+    }
+    .our-unique .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .our-unique-carousel {
+        width: 100%;
+    }
+    .our-unique .c-container {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+    }
+    .c-item {
+        flex: 0 0 100%;
+        scroll-snap-align: start;
+    }
+    .c-item img {
+        max-width: 100%;
+    }
+    .c-item-title {
+        white-space: normal;
     }
 }
