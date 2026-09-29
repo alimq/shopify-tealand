@@ -1,0 +1,12 @@
+{"files.exclude": {
+  "snippets/[^r]*": true,
+  "snippets/r[^e]*": true,
+  "snippets/re[^f]*": true,
+  "assets/[^r]*": true,
+  "assets/r[^e]*": true,
+  "assets/re[^f]*": true,
+  "sections/[^r]*": true,
+  "sections/r[^e]*": true,
+  "sections/re[^f]*": true
+}
+}
