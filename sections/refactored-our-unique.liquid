@@ -4,6 +4,12 @@
         <p class="our-unique-title hero-second-title hero-second-title-font">
             Our Unique Tea Blends
         </p>
+        <button id="left-arr">
+            <img src="{{ 'left-arrow.svg' | asset_url }}">
+        </button>
+        <button id="right-arr">
+            <img src="{{ 'right-arrow.svg' | asset_url }}">
+        </button>
         <div class="our-unique-carousel">
             <div class="c-container">
                 {% for product in collections['Gynostemma'].products %}
@@ -18,6 +24,18 @@
                 {% endfor %}
             </div>
         </div>
+        <script>
+            let leftArr=document.getElementById('left-arr');
+            let rightArr=document.getElementById('right-arr');
+            let track=document.querySelector('.c-container');
+            let slide=document.querySelector('.c-item');
+            leftArr.addEventListener('click',(event)=>{
+                track.scrollBy({left: -slide.offsetWidth, behavior: 'smooth'})
+            })
+            rightArr.addEventListener('click',(event)=>{
+                track.scrollBy({left: slide.offsetWidth, behavior: 'smooth'})
+            })
+        </script>
     </div>
 </div>
 {% schema %}
