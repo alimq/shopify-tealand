@@ -1,0 +1,8 @@
+@media (min-width: 162px) {
+    .our-unique-title {
+        display: inline !important;
+    }
+    .our-unique {
+        padding-top: 70px;
+    }
+}
