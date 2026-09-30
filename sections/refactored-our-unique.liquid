@@ -1,15 +1,19 @@
 {{ 'refactored-our-unique.css' | asset_url | stylesheet_tag }}
 <div class="our-unique">
     <div class="container">
-        <p class="our-unique-title hero-second-title hero-second-title-font">
-            Our Unique Tea Blends
-        </p>
-        <button id="left-arr">
-            <img src="{{ 'left-arrow.svg' | asset_url }}">
-        </button>
-        <button id="right-arr">
-            <img src="{{ 'right-arrow.svg' | asset_url }}">
-        </button>
+        <div class="text-btn-row">
+            <p class="our-unique-title hero-second-title hero-second-title-font">
+                Our Unique Tea Blends
+            </p>
+            <div class="btns">
+                <button id="left-arr" class="arr-btn">
+                    <img src="{{ 'left-arrow.svg' | asset_url }}">
+                </button>
+                <button id="right-arr" class="arr-btn">
+                    <img src="{{ 'right-arrow.svg' | asset_url }}">
+                </button>
+            </div>
+        </div>
         <div class="our-unique-carousel">
             <div class="c-container">
                 {% for product in collections['Gynostemma'].products %}
