@@ -1,0 +1,38 @@
+{{ 'refactored-house-of-tea.css' | asset_url | stylesheet_tag }}
+<div class="house-of-tea">
+    <div class="container">
+        <p class="hero-title hero-title-font">
+            HOUSE OF TEA
+        </p>
+        <p class="house-of-tea-second hero-second-title hero-second-title-font">
+            Our Best Menu
+        </p>
+        <div class="col-or-row-of-pics">
+            {% for product in collections['Our-Best-Menu'].products %}
+                <div class="rows">
+                    <p>{{ product.title }}</p>
+                    <p class="price-tag">{{ product.price | money }}</p>
+                    <p>{{ product.description }}</p>
+                </div>
+            {% endfor %}
+            <picture class="house-of-tea-pic">
+                <source media="
+                (max-width: 419px)" srcset="{{ 'house-of-tea.svg' | asset_url }}">
+                <source media="
+                (min-width: 420px)" srcset="{{ 'house-of-tea.png' | asset_url }}">
+                <img src="{{ 'house-of-tea.png' | asset_url }}" class="house-of-tea-pic">
+            </picture>
+        </div>
+    </div>
+</div>
+{% schema %}
+{
+    "name": "House Of Tea section",
+    "settings": [],
+    "presets": [
+        {
+            "name": "House Of Tea section"
+        }
+    ]
+}
+{% endschema %}
