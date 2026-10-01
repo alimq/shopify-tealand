@@ -3,43 +3,43 @@
     font-family: 'Roboto';
     color: #ffffff;
     background-color: #7d806a;
-    height: 31px;
-    width: 113px;
     border: none;
     border-radius: 25px;
     margin-top: 7px;
+    aspect-ratio: 3/1;
 }
 @media (min-width:162px) and (max-width:419px) {
-    
+    .hero-button {
+        height: 31px !important;
+        width: 113px !important;
+    }
 }
 @media (min-width:420px) and (max-width:699px) {
     .hero-button {
-        width: 129px;
+        width: 30vw;
+        font-size: 6vw;
     }
 }
 @media (min-width:700px) and (max-width:1279px) {
     .hero-button {
-        width: 170px;
-        height: 50px;
+        width: 25vw;
+        font-size: 5vw;
     }
 }
 @media (min-width:1280px) and (max-width:1919px) {
     .hero-button {
-        width: 170px;
-        height: 50px;
+        width: 15vw;
+        font-size: 3vw;
     }
 }
-@media (min-width:1920px) and (max-width:4095px) {
+@media (min-width:1920px) and (max-width:4096px) {
     .hero-button {
-        width: 170px;
-        height: 50px;
+        width: 10vw;
+        font-size: 2vw;
     }
 }
 @media (min-width:4096px) {
     .hero-button {
-        width: 468px;
-        height: 169px;
-        font-size: 80px;
-        margin-top: 40px;
+        margin-top: 1vw;
     }
 }
