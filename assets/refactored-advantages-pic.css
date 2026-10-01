@@ -2,11 +2,7 @@
     aspect-ratio: 165/140;
     margin-bottom: -40px;
     margin-left: -15px;
-}
-@media (min-width:162px) and (max-width:419px) {
-    .advantages .advantages-pic {
-        height: 140px;
-    }
+    height: 140px;
 }
 @media (min-width:700px) {
     .advantages .advantages-pic {

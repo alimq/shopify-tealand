@@ -1,52 +1,58 @@
-@media (min-width: 162px) {
-    .our-unique-title {
-        display: inline !important;
-    }
-    .our-unique {
-        padding-top: 40px;
-    }
-    .our-unique .container {
-        display: flex;
-        flex-direction: column;
-    }
-    .our-unique-carousel {
-        width: 100%;
-        align-self: stretch;
-    }
-    .our-unique .c-container {
-        display: flex;
-        flex-direction: row;
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
-    }
-    .c-item {
-        flex: 0 0 100%;
-        scroll-snap-align: start;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .c-item img {
-        max-width: 100%;
-    }
-    .c-item-title {
-        white-space: normal;
-        margin-top: 0;
-    }
-    .arr-btn {
-        background-color: transparent;
-        border: none;
-    }
-    .text-btn-row {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+.our-unique-title {
+    display: inline !important;
 }
-@media (min-width: 420px) {
-    .text-btn-row {
-        width: 65%;
+.our-unique {
+    padding-top: 40px;
+}
+.our-unique .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.our-unique-carousel {
+    width: fit-content;
+}
+.our-unique .c-container {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+.c-item {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.c-item img {
+    max-width: 100%;
+}
+.c-item-title {
+    white-space: normal;
+    margin-top: 0;
+}
+.arr-btn {
+    background-color: transparent;
+    border: none;
+}
+.text-btn-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+@media (min-width: 700px) {
+    .our-unique .c-item {
+        font-size: 2vw;
+    }
+    .arr-btn img {
+        width: 2vw;
+        height: 2vw;
     }
 }
 @media (min-width: 700px) {
