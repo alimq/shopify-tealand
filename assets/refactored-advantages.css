@@ -22,7 +22,7 @@
     }
     .advantages {
         display: flex;
-        padding-top: 30px;
+        padding-top: 20vw;
     }
 }
 @media (min-width:420px) and (max-width:699px) {
@@ -30,29 +30,11 @@
         display: none;
     }
 }
-@media (min-width:700px) and (max-width:1279px) {
+@media (min-width:700px) {
     .advantages .container-1 {
         display: none;
-    }
-}
-@media (min-width:1280px) and (max-width:1919px) {
-    .advantages .container-1 {
-        display: none;
-    }
-}
-@media (min-width:1920px) and (max-width:4095px) {
-    .advantages .container-1 {
-        display: none;
-    }
-}
-@media (min-width:4096px) {
-    .advantages .container-1 {
-        display: none;
-    }
-    .advantages {
-        padding-top: 200px;
     }
     .advantages .container-2 {
-        gap: 100px;
+        gap: 2.5vw;
     }
 }
