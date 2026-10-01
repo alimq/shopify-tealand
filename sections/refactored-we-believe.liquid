@@ -1,0 +1,123 @@
+{{ 'refactored-we-believe.css' | asset_url | stylesheet_tag }}
+<div class="we-believe">
+    <div class="container">
+        <p class="we-believe-title hero-title title-font">
+            BEST SELLER
+        </p>
+        <p class="we-believe-second hero-second-title hero-second-title-font">
+            We Believe In Perfection In The Art Of Tea.
+        </p>
+        <div class="we-believe-container">
+            <div class="we-grid">
+                <div class="we-point">
+                    <picture class="we-pic">
+                        <source media="
+                        (max-width: 419px)" srcset="">
+                        <source media="{{
+                            'great-quality.svg' | asset_url
+                        }}
+                        (min-width: 420px)" srcset="{{
+                            'great-quality.png' | asset_url
+                        }}">
+                        <img class="we-pic" src="
+                        {{ 'great-quality.png' | asset_url }}">
+                    </picture>
+                    <p class="title">Great Quality</p>
+                </div>
+                <div class="we-point">
+                    <picture class="we-pic">
+                        <source media="
+                        (max-width: 419px)" srcset="">
+                        <source media="{{
+                            'worldwide-shipping.svg' | asset_url
+                        }}
+                        (min-width: 420px)" srcset="{{
+                            'worldwide-shipping.png' | asset_url
+                        }}">
+                        <img class="we-pic" src="
+                        {{ 'worldwide-shipping.png' | asset_url }}">
+                    </picture>
+                    <p class="title">Worldwide Shipping</p>
+                </div>
+                <div class="we-point">
+                    <picture class="we-pic">
+                        <source media="
+                        (max-width: 419px)" srcset="">
+                        <source media="{{
+                            'best-seller.svg' | asset_url
+                        }}
+                        (min-width: 420px)" srcset="{{
+                            'best-seller.png' | asset_url
+                        }}">
+                        <img class="we-pic" src="
+                        {{ 'best-seller.png' | asset_url }}">
+                    </picture>
+                    <p class="title">Best Seller</p>
+                </div>
+                <div class="we-point">
+                    <picture class="we-pic">
+                        <source media="
+                        (max-width: 419px)" srcset="">
+                        <source media="{{
+                            'organic-product.svg' | asset_url
+                        }}
+                        (min-width: 420px)" srcset="{{
+                            'organic-product.png' | asset_url
+                        }}">
+                        <img class="we-pic" src="
+                        {{ 'organic-product.png' | asset_url }}">
+                    </picture>
+                    <p class="title">Organic Product</p>
+                </div>
+                <div class="we-point">
+                    <picture class="we-pic">
+                        <source media="
+                        (max-width: 419px)" srcset="">
+                        <source media="{{
+                            'loyal-rewards.svg' | asset_url
+                        }}
+                        (min-width: 420px)" srcset="{{
+                            'loyal-rewards.png' | asset_url
+                        }}">
+                        <img class="we-pic" src="
+                        {{ 'loyal-rewards.png' | asset_url }}">
+                    </picture>
+                    <p class="title">Loyal-Tea Rewards</p>
+                </div>
+                <div class="we-point">
+                    <picture class="we-pic">
+                        <source media="
+                        (max-width: 419px)" srcset="">
+                        <source media="{{
+                            'eco-package.svg' | asset_url
+                        }}
+                        (min-width: 420px)" srcset="{{
+                            'eco-package.png' | asset_url
+                        }}">
+                        <img class="we-pic" src="
+                        {{ 'eco-package.png' | asset_url }}">
+                    </picture>
+                    <p class="title">Eco Package</p>
+                </div>
+            </div>
+            <picture class="oolong-pic">
+                <source media="
+                (max-width: 419px)" srcset="{{ 'oolong-tea.svg' | asset_url }}">
+                <source media="
+                (min-width: 420px)" srcset="{{ 'oolong-tea.png' | asset_url }}">
+                <img src="{{ 'oolong-tea.png' | asset_url }}" class="oolong-pic">
+            </picture>
+        </div>
+    </div>
+</div>
+{% schema %}
+{
+    "name": "We Believe section",
+    "settings": [],
+    "presets": [
+        {
+            "name": "We Believe section"
+        }
+    ]
+}
+{% endschema %}

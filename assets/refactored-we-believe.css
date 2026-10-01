@@ -1,0 +1,21 @@
+.we-grid {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+@media (min-width: 1920px) {
+    .we-grid {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+.we-point {
+    background-color: #eef0dc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width: 420px) {
+    .we-point {
+        flex-direction: row;
+    }
+}
