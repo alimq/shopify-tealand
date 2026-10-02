@@ -6,7 +6,6 @@
     width: 100% !important;
 }
 .sometimes {
-    padding-top: 142px;
 }
 .sometimes .col-or-row-of-pics {
     display: flex;
@@ -38,6 +37,17 @@
     }
     .sometimes-second {
         font-size: 5vw;
+    }
+}
+@media (min-width: 700px) {
+    .sometimes .sometimes-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sometimes p {
+        text-align: center;
     }
 }
 @media (min-width: 1280px) {

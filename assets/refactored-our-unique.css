@@ -19,6 +19,7 @@
     flex-direction: row;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
+    scrollbar-width: none;
 }
 .c-item {
     flex: 0 0 100%;
@@ -29,6 +30,9 @@
     justify-content: center;
 }
 .c-item img {
+    max-width: 100%;
+}
+.our-unique-carousel,.c-container,.c-item,.c-item picture {
     max-width: 100%;
 }
 .c-item-title {
