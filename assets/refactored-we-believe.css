@@ -12,6 +12,15 @@
     .oolong-pic {
         width: 20vw !important;
     }
+    .we-believe-container {
+        background-color: #eef0dc;
+    }
+    .we-believe .we-believe-second {
+        margin-bottom: 5vw;
+    }
+    .we-believe .we-believe-title {
+        margin-bottom: 1.5vw;
+    }
 }
 .we-point {
     background-color: #eef0dc;
@@ -20,15 +29,56 @@
     align-items: center;
     justify-content: center;
 }
-@media (min-width: 420px) {
-    .we-point {
-        flex-direction: row;
-    }
-}
 .oolong-pic {
     position: absolute;
     top: 50%;
     left: 50%;
     width: 100vw;
     transform: translate(-50%,-50%);
+}
+@media (min-width: 420px) {
+    .we-point {
+        flex-direction: row;
+        justify-content: center;
+        gap: 5vw;
+        width: 100%;
+        font-size: 5vw;
+    }
+    .we-believe-second {
+        font-size: 5vw;
+    }
+}
+@media (min-width: 700px) {
+    .we-grid {
+        gap: 120vw;
+    }
+    .oolong-pic {
+        width: 80vw;
+    }
+    .we-point {
+        font-size: 2vw;
+    }
+    .we-believe-second {
+        font-size: 3vw;
+    }
+}
+@media (min-width: 1280px) {
+    .we-grid {
+        gap: 52.5vw;
+    }
+    .oolong-pic {
+        width: 35vw;
+    }
+    .we-point {
+        font-size: 1.5vw;
+    }
+    .we-believe-second {
+        font-size: 2.5vw;
+    }
+}
+.three-p {
+    width: 100%;
+}
+.we-believe-container {
+    width: 100%;
 }

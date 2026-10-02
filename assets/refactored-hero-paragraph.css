@@ -14,7 +14,7 @@
 }
 @media (min-width:1280px) and (max-width:4096px) {
     .hero-paragraph {
-        max-width: 30vw;
+        max-width: 45vw;
         font-size: 2vw;
     }
 }
