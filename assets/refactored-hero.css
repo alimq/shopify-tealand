@@ -22,11 +22,5 @@
 @media (min-width:700px) {
     .content {
         padding-left: 3vw;
-        gap: 3vw;
-    }
-}
-@media (min-width: 1280px) {
-    .content {
-        gap: 1.5vw;
     }
 }

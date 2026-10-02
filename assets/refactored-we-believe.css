@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    gap: 115vw;
+    gap: 97.5vw;
 }
 .we-believe-second {
     text-align: center;
@@ -37,8 +37,8 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 100vw;
-    transform: translate(-50%,-50%);
+    width: 85vw;
+    transform: translate(-47%,-50%);
 }
 @media (min-width: 420px) {
     .three-p {
@@ -51,9 +51,14 @@
     .we-point {
         flex-direction: row;
         justify-content: flex-start;
+        align-items: center !important;
         gap: 5vw;
         width: calc(30vw + 100px);
         margin: auto;
+    }
+    .we-point.right-aligned {
+        align-items: center !important;
+        justify-content: flex-end !important;
     }
 }
 @media (min-width: 700px) {

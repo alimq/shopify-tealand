@@ -31,18 +31,19 @@
     }
 }
 @media (min-width: 1280px) {
-    .sometimes-container {
+    .sometimes .sometimes-container {
         display: flex;
         flex-direction: row;
         gap: 3vw;
+        padding-top: 3vw;
     }
     .sometimes .col-or-row-of-pics {
         display: none;
     }
-    .for-big-screens {
+    .for-big-screens, .for-big-screens *, .sometimes-text {
+        width: 100%;
         display: flex;
-    }
-    .for-big-screens img {
-        height: 496px;
+        flex: 1 1 100%;
+        max-width: 100%;
     }
 }

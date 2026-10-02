@@ -28,6 +28,17 @@
         flex-direction: row !important;
         gap: 6vw;
     }
+    .rows-s, .rows-s * {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 100% !important;
+        width: 100% !important;
+    }
+    .house-of-tea-pic, .house-of-tea-pic * {
+        flex: 1 1 100% !important;
+        width: auto !important;
+        max-width: 100%;
+    }
     .house-of-tea picture.house-of-tea-pic {
         display: flex;
     }
