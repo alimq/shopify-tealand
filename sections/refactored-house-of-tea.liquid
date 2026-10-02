@@ -8,13 +8,15 @@
             Our Best Menu
         </p>
         <div class="col-or-row-of-pics">
-            {% for product in collections['Our-Best-Menu'].products %}
-                <div class="rows">
-                    <p>{{ product.title }}</p>
-                    <p class="price-tag">{{ product.price | money }}</p>
-                    <p>{{ product.description }}</p>
-                </div>
-            {% endfor %}
+            <div class="rows-s">
+                {% for product in collections['Our-Best-Menu'].products %}
+                    <div class="rows">
+                        <p>{{ product.title }}</p>
+                        <p class="price-tag">{{ product.price | money }}</p>
+                        <p>{{ product.description }}</p>
+                    </div>
+                {% endfor %}
+            </div>
             <picture class="house-of-tea-pic">
                 <source media="
                 (max-width: 419px)" srcset="{{ 'house-of-tea.svg' | asset_url }}">

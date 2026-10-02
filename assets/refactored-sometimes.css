@@ -44,6 +44,7 @@
     .sometimes-container {
         display: flex;
         flex-direction: row;
+        gap: 3vw;
     }
     .sometimes .col-or-row-of-pics {
         display: none;
