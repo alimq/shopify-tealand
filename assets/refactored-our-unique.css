@@ -2,9 +2,6 @@
     display: inline !important;
     text-align: center;
 }
-.our-unique {
-    padding-top: 40px;
-}
 .our-unique .container {
     display: flex;
     flex-direction: column;

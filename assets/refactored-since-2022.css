@@ -23,7 +23,7 @@
         display: inline !important;
     }
     .since-2022 .container {
-        gap: 15px;
+        gap: 0px;
     }
     .since-2022 .col-or-row-of-pics {
         gap: 20px;

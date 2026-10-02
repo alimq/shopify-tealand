@@ -4,7 +4,6 @@
 .sometimes .col-or-row-of-pics {
     display: flex;
     flex-direction: column;
-    gap: 34px;
 }
 .sometimes .col-or-row-of-pics img {
     width: 100%;
@@ -13,14 +12,13 @@
 .for-big-screens {
     display: none;
 }
-
-    .sometimes-text {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+.sometimes-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 @media (min-width: 700px) {
     .sometimes .sometimes-container {
         display: flex;

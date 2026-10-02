@@ -2,14 +2,14 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    gap: 150vw;
+    gap: 115vw;
 }
 .we-believe-second {
     text-align: center;
 }
 @media (min-width: 1920px) {
     .we-point {
-        width: calc(10vw + 100px) !important;
+        width: calc(20vw + 100px) !important;
         gap: 2.5vw !important;
     }
     .we-grid {
@@ -61,7 +61,7 @@
 }
 @media (min-width: 700px) {
     .we-grid {
-        gap: 120vw;
+        gap: 92vw;
     }
     .oolong-pic {
         width: 80vw;
@@ -69,7 +69,7 @@
 }
 @media (min-width: 1280px) {
     .we-grid {
-        gap: 52.5vw;
+        gap: 40.25vw;
     }
     .oolong-pic {
         width: 35vw;

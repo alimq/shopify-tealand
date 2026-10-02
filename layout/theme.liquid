@@ -4,6 +4,10 @@
   {{ content_for_header }}
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+  p {
+    margin: 0;
+    padding: 0;
+  }
   body {
     margin: 0;
     background-color: #fcf6f0;
@@ -25,7 +29,12 @@
   .wrapper {
     display: flex;
     flex-direction: column;
-    gap: 5vw;
+    gap: 144px;
+  }
+  @media (min-width: 700px) {
+    .wrapper {
+      gap: 20vw;
+    }
   }
   @media (max-width: 161px) or (min-width: 4097px) {
     .alt-page {
