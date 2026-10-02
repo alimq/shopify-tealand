@@ -1,10 +1,16 @@
 .hero-second-title-font {
-    font-size: 16px;
+    font-size: 30px;
     font-family: 'Philosopher';
     color: #7d806a;
+    font-weight: 600;
 }
 .hero-second-title {
     margin: 0;
+}
+@media (max-width: 699px) {
+    .hero-second-title {
+        text-align: center;
+    }
 }
 @media (min-width:162px) and (max-width:699px) {
     .hero .hero-second-title {
@@ -13,7 +19,7 @@
 }
 @media (min-width:700px) {
     .hero-second-title {
-        font-size: 3vw;
+        font-size: 6vw;
         max-width: 45vw;
     }
 }

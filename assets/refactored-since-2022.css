@@ -64,9 +64,6 @@
     .since-2022 .container {
         gap: 0.6vw;
     }
-    .since-2022-text.hero-second-title {
-        font-size: 2vw;
-    }
     .since-2022 .since-2022-paragraph {
         max-width: 65%;
         text-align: center;

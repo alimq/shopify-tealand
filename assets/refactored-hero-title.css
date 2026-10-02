@@ -3,13 +3,14 @@
     font-family: 'Roboto';
     color: #99775a;
     letter-spacing: 2px;
+    font-weight: 600;
 }
 .hero-title {
     margin: 0;
 }
 @media (min-width:420px) and (max-width:699px) {
     .hero-title {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 }
 @media (min-width:700px) and (max-width:1919px) {

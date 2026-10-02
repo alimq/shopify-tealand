@@ -8,14 +8,11 @@
     flex-direction: column !important;
     width: auto !important;
     justify-content: center !important;
-    justify-content: center !important;
+    text-align: center;
 }
 @media (min-width: 420px) {
     .house-of-tea img {
         width: 407px;
-    }
-    .house-of-tea {
-        font-size: 3vw;
     }
 }
 @media (min-width: 700px) {
@@ -30,9 +27,6 @@
     .house-of-tea .col-or-row-of-pics {
         flex-direction: row !important;
         gap: 6vw;
-    }
-    .house-of-tea {
-        font-size: 1.5vw;
     }
     .house-of-tea picture.house-of-tea-pic {
         display: flex;
