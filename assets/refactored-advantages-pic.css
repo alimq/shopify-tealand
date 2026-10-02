@@ -7,7 +7,7 @@
 @media (min-width:700px) {
     .advantages .advantages-pic {
         height: 30vw;
-        margin-bottom: calc(-40px * 30vw/140);
-        margin-left: calc(-15px * 30vw/140);
+        margin-bottom: calc(-40 * 30vw/140);
+        margin-left: calc(-15 * 30vw/140);
     }
 }

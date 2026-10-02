@@ -20,6 +20,6 @@
 }
 @media (min-width:1920px) and (max-width:4096px) {
     .hero-title {
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
 }
