@@ -12,7 +12,25 @@
                 Explore
             </button>
         </div>
-        {% for product in collections['Gallery'].products %}
+        {% for product in collections['Gallery-1'].products %}
+        <div class="g-item">
+            <picture class="g-item-pic">
+                <source media="(max-width: 419px)" srcset="{{ product.metafields.custom.svg_icon | image_url: width: auto }}">
+                <source media="(min-width: 420px)" srcset="{{ product.featured_image | image_url: width: auto }}">
+                <img src="{{ product.featured_image | image_url: width: auto }}" class="">
+            </picture>
+        </div>
+        {% endfor %}
+        {% for product in collections['Gallery-2'].products %}
+        <div class="g-item">
+            <picture class="g-item-pic">
+                <source media="(max-width: 419px)" srcset="{{ product.metafields.custom.svg_icon | image_url: width: auto }}">
+                <source media="(min-width: 420px)" srcset="{{ product.featured_image | image_url: width: auto }}">
+                <img src="{{ product.featured_image | image_url: width: auto }}" class="">
+            </picture>
+        </div>
+        {% endfor %}
+        {% for product in collections['Gallery-3'].products %}
         <div class="g-item">
             <picture class="g-item-pic">
                 <source media="(max-width: 419px)" srcset="{{ product.metafields.custom.svg_icon | image_url: width: auto }}">
