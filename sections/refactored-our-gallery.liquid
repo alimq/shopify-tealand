@@ -8,13 +8,16 @@
             <p class="our-unique-title hero-second-title hero-second-title-font">
                 You Too Can Have A Tea Like Mine
             </p>
+            <button class="hero-button">
+                Explore
+            </button>
         </div>
         {% for product in collections['Gallery'].products %}
-        <div class="c-item">
-            <picture class="c-item-pic">
-                <source media="(max-width: 419px)" srcset="{{ product.metafields.custom.svg_icon | image_url: width: 600 }}">
-                <source media="(min-width: 420px)" srcset="{{ product.featured_image | image_url: width: 600 }}">
-                <img src="{{ product.featured_image | image_url: width: 600 }}" class="">
+        <div class="g-item">
+            <picture class="g-item-pic">
+                <source media="(max-width: 419px)" srcset="{{ product.metafields.custom.svg_icon | image_url: width: auto }}">
+                <source media="(min-width: 420px)" srcset="{{ product.featured_image | image_url: width: auto }}">
+                <img src="{{ product.featured_image | image_url: width: auto }}" class="">
             </picture>
         </div>
         {% endfor %}
