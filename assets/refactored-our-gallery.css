@@ -7,5 +7,12 @@
     max-width: 100%;
 }
 @media (min-width: 700px) {
-
+    .third-combo .g-item, .third-combo .g-item picture {
+        display: inline-block;
+    }
+}
+@media (min-width: 1920px) {
+    .second-combo .g-item, .second-combo .g-item picture {
+        display: inline-block;
+    }
 }
