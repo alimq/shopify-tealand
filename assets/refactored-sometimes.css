@@ -29,9 +29,10 @@
     .sometimes p {
         text-align: center;
     }
-    
+}
+@media (min-width: 700px) and (max-width: 1279px) {
     .sometimes .col-or-row-of-pics, 
-    .sometimes .col-or-row-of-pics *, .sometimes-text {
+    .sometimes .col-or-row-of-pics picture, .sometimes-text {
         height: 100% !important;
         display: flex;
         flex: 1 1 100% !important;
@@ -49,7 +50,7 @@
     .sometimes .col-or-row-of-pics {
         display: none;
     }
-    .for-big-screens, .for-big-screens *, .sometimes-text {
+    .for-big-screens, .for-big-screens picture, .sometimes-text {
         width: 100%;
         display: flex;
         flex: 1 1 100%;
