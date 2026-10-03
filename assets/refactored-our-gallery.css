@@ -2,9 +2,10 @@
     display: flex;
     flex-direction: column;
 }
-.g-item, .g-item picture {
-    width: 100%;
+.g-item, .g-item picture, .g-item picture img {
+    min-width: 162px;
+    max-width: 100%;
 }
-@media (min-width: 420px) {
-    
+@media (min-width: 700px) {
+
 }
