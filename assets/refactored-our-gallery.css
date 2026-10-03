@@ -11,6 +11,11 @@
         display: inline-block;
     }
 }
+@media (min-width: 1280px) {
+    .text-btn-row {
+        flex-direction: row;
+    }
+}
 @media (min-width: 1920px) {
     .second-combo .g-item, .second-combo .g-item picture {
         display: inline-block;
