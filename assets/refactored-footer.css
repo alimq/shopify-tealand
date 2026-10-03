@@ -1,0 +1,24 @@
+.footer {
+    background-color: #dee2bd;
+}
+.front,.mid,.back,.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+picture.footer-logo, picture.footer-logo img {
+    max-width: 100%;
+}
+@media (min-width: 1920px) {
+    .footer .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .front,.mid,.back {
+        flex: 1 1 100%;
+    }
+}
