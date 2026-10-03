@@ -1,0 +1,33 @@
+{{ 'refactored-our-gallery.css' | asset_url | stylesheet_tag }}
+<div class="our-gallery">
+    <div class="container">
+        <p class="hero-title hero-title-font">
+            OUR GALLERY
+        </p>
+        <div class="text-btn-row">
+            <p class="our-unique-title hero-second-title hero-second-title-font">
+                You Too Can Have A Tea Like Mine
+            </p>
+        </div>
+        {% for product in collections['Gallery'].products %}
+        <div class="c-item">
+            <picture class="c-item-pic">
+                <source media="(max-width: 419px)" srcset="{{ product.metafields.custom.svg_icon | image_url: width: 600 }}">
+                <source media="(min-width: 420px)" srcset="{{ product.featured_image | image_url: width: 600 }}">
+                <img src="{{ product.featured_image | image_url: width: 600 }}" class="">
+            </picture>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% schema %}
+{
+    "name": "Our Gallery section",
+    "settings": [],
+    "presets": [
+        {
+            "name": "Our Gallery section"
+        }
+    ]
+}
+{% endschema %}
