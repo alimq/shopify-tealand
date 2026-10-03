@@ -17,13 +17,13 @@
         gap: 30vw;
     }
     .oolong-pic {
-        width: 20vw !important;
+        width: 25vw !important;
     }
     .we-believe-container {
         background-color: #eef0dc;
     }
     .we-believe .we-believe-second {
-        margin-bottom: 3.5vw;
+        margin-bottom: 7vw;
     }
 }
 .we-point {
@@ -63,10 +63,10 @@
 }
 @media (min-width: 700px) {
     .we-grid {
-        gap: 92vw;
+        gap: 46vw;
     }
     .oolong-pic {
-        width: 80vw;
+        width: 40vw;
     }
 }
 @media (min-width: 1280px) {

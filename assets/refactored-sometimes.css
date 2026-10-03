@@ -29,6 +29,15 @@
     .sometimes p {
         text-align: center;
     }
+    
+    .sometimes .col-or-row-of-pics, 
+    .sometimes .col-or-row-of-pics *, .sometimes-text {
+        height: 100% !important;
+        display: flex;
+        flex: 1 1 100% !important;
+        max-height: 100% !important;
+        margin: auto;
+    }
 }
 @media (min-width: 1280px) {
     .sometimes .sometimes-container {

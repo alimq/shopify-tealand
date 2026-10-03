@@ -17,6 +17,9 @@
     .hero .hero-title {
         display: none;
     }
+    .hero-title {
+        font-size: 2vw;
+    }
 }
 @media (min-width:1280px) and (max-width:4096px) {
     .hero-title {
