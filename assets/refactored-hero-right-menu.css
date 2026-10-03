@@ -1,6 +1,6 @@
 .hero .hero-right-menu {
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     right: 0px;
 }
 .hero .hero-right-menu ul {
@@ -16,13 +16,36 @@
 }
 .hero .hero-right-menu .contact-us {
     margin-top: 0;
+    cursor: pointer;
+}
+.hero .hero-right-menu ul li {
+    cursor: pointer;
 }
 @media (min-width:162px) and (max-width:1919px) {
     .hero .hero-right-menu {
         display: none;
     }
+    .hero-right-menu-pic {
+        width: 24px;
+        opacity: 0.7;
+        cursor: pointer;
+        position: absolute;
+        z-index: 4;
+        right: 4px;
+        top: 4px;
+    }
+}
+@media (min-width: 420px) {
+    .hero-right-menu-pic {
+        width: 6vw;
+        right: 1vw;
+        top: 1vw;
+    }
 }
 @media (min-width:1920px) and (max-width:4096px) {
+    .hero-right-menu-pic {
+        display: none;
+    }
     .hero .hero-right-menu {
         padding-right: 2vw;
         padding-top: 1vw;

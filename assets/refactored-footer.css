@@ -17,6 +17,9 @@ picture.footer-logo, picture.footer-logo img {
     margin-top: 6px;
     gap: 6px;
 }
+.grid-of-icons img,.up-pic img {
+    cursor: pointer;
+}
 @media (min-width: 700px) {
     .grid-of-icons {
         grid-template-columns: repeat(4,1fr);

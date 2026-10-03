@@ -26,6 +26,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    cursor: pointer;
 }
 .c-item img {
     max-width: 100%;
@@ -40,6 +41,7 @@
 .arr-btn {
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 .text-btn-row {
     display: flex;
@@ -67,5 +69,8 @@
 @media (min-width: 1920px) {
     .c-item {
         flex-basis: 25%;
+    }
+    .arr-btn {
+        display: none;
     }
 }
