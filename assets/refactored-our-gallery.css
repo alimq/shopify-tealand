@@ -1,14 +1,23 @@
 .text-btn-row {
     display: flex;
     flex-direction: column;
+    margin-bottom: 6px;
+}
+.second-combo {
+    display: flex;
+    flex-direction: column;
 }
 .g-item, .g-item picture, .g-item picture img {
     min-width: 162px;
     max-width: 100%;
+    margin: auto;
 }
 @media (min-width: 700px) {
     .third-combo .g-item, .third-combo .g-item picture {
         display: inline-block;
+    }
+    .third-combo {
+        text-align: center;
     }
 }
 @media (min-width: 1280px) {
@@ -17,7 +26,13 @@
     }
 }
 @media (min-width: 1920px) {
+    .second-combo {
+        display: block;
+    }
     .second-combo .g-item, .second-combo .g-item picture {
         display: inline-block;
+    }
+    .text-btn-row {
+        margin-bottom: 0.4vw;
     }
 }

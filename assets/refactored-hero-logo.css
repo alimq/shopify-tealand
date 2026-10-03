@@ -12,12 +12,12 @@
     }
 }
 @media (min-width:700px) and (max-width:1919px) {
-    .hero .hero-logo {
+    .hero-logo {
         height: 10vw;
     }
 }
 @media (min-width:1920px) and (max-width:4096px) {
-    .hero .hero-logo {
+    .hero-logo {
         height: 8vw;
     }
 }

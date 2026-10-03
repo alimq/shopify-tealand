@@ -11,6 +11,26 @@
 picture.footer-logo, picture.footer-logo img {
     max-width: 100%;
 }
+.grid-of-icons {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 6px;
+    gap: 6px;
+}
+@media (min-width: 700px) {
+    .grid-of-icons {
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+@media (max-width: 1919px) {
+    .front,.mid,.back {
+        border-bottom: 1px solid #a1a589;
+    }
+    .front,.mid,.back,.footer-bottom {
+        padding-bottom: 12px;
+        padding-top: 12px;
+    }
+}
 @media (min-width: 1920px) {
     .footer .container {
         display: flex;
@@ -20,5 +40,23 @@ picture.footer-logo, picture.footer-logo img {
     }
     .front,.mid,.back {
         flex: 1 1 100%;
+    }
+    .footer-bottom {
+        border-top: 1px solid #a1a589;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    .grid-of-icons img {
+        height: 1.5vw;
+    }
+    .grid-of-icons {
+        gap: 0.4vw;
+        margin-top: 0.4vw;
+    }
+    .up-pic,.up-pic picture,.up-pic img {
+        height: 2vw;
+    }
+    .footer {
+        padding-top: 0.4vw;
     }
 }
